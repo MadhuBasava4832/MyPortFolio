@@ -1,13 +1,12 @@
-import { BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
-import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
-import { SiThemoviedatabase, SiExpress } from "react-icons/si";
+import { BiLogoCss3, BiLogoHtml5, BiLogoMongodb, BiLogoReact, BiLogoJavascript } from "react-icons/bi";
+import { TbBrandNextjs, TbApi, TbDatabase,  } from "react-icons/tb";
 
 const ProjectsData = [
   {
     id: "1",
     name: "Anime Website",
     image: "./narutowebsite.png",
-    icons: [BiLogoReact, BiLogoCss3, SiThemoviedatabase],
+    icons: [BiLogoHtml5, BiLogoCss3,BiLogoJavascript],
     description: "This website provides information about popular , top-rated and upcoming animes.",
     github: "https://github.com/MadhuBasava4832/Naruto",
     demo: "https://madhubasava4832.github.io/Naruto/ ",
@@ -15,48 +14,31 @@ const ProjectsData = [
   {
     id: "2",
     name: "School Management",
-    image: "./ecom.png",
-    icons: [BiLogoReact, BiLogoTailwindCss, TbApi, TbDatabase],
-    description: "This website provides users with all the basic kinds of shopping items.",
+    image: "./sschome.png",
+    icons: [BiLogoReact, BiLogoMongodb, TbDatabase],
+    description: "A school management system for tracking fees, student performance, and academic records efficiently.",
     github: "https://github.com/kathipallimadhukiran/school_site",
     demo: "https://school-site-fawn.vercel.app/",
   },
-  // {
-  //   id: "3",
-  //   name: "Chat Application",
-  //   image: "./chatapp.png",
-  //   icons: [BiLogoReact, BiLogoTailwindCss, BiLogoFirebase],
-  //   description: "This chat application provides an interface to the users to interact with their friends.",
-  //   github: "https://github.com/VijayKumarReddyTalakola/Chat-App",
-  //   demo: "https://vchat4whisperchat.vercel.app",
-  // },
-  // {
-  //   id: "4",
-  //   name: "Expense Tracker",
-  //   image: "./expense-tracker.png",
-  //   icons: [ BiLogoMongodb, SiExpress, BiLogoReact, BiLogoRedux, BiLogoTailwindCss],
-  //   description: "This application provides an interface for users to track their expenses .",
-  //   github: "https://github.com/VijayKumarReddyTalakola/Expense-Tracker",
-  //   demo: "https://vtrack-expense.vercel.app",
-  // },
-  // {
-  //   id: "5",
-  //   name: "Car Rental Website",
-  //   image: "./car-rental-app.png",
-  //   icons: [TbBrandNextjs, BiLogoTypescript, BiLogoTailwindCss, TbApi],
-  //   description: "This is an online platform that allows users to rent cars for personal or business use.",
-  //   github: "https://github.com/VijayKumarReddyTalakola/nextjs-car-rental-app",
-  //   demo: "https://car-rental-application.vercel.app",
-  // },
-  // {
-  //   id: "8",
-  //   name: "Blog Application",
-  //   image: "./blog-app.png",
-  //   icons: [TbBrandNextjs, BiLogoTailwindCss, BiLogoMongodb,TbBrandPrisma],
-  //   description: "This application allows users to express their thoughts and experiences through blogs.",
-  //   github: "https://github.com/VijayKumarReddyTalakola/Blog-Application",
-  //   demo: "https://write-ur-blog.vercel.app",
-  // },
+  {
+    id: "3",
+    name: "Sports Academy",
+    image: "./",
+    icons: [BiLogoHtml5, BiLogoCss3,BiLogoJavascript],
+    description: "A college portal for students featuring lost and found, complaint registration, and other essential services.",
+    github: "https://github.com/22a91a61j6/Sports-Mania",
+    demo: "https://sports-mania-912v.vercel.app/",
+  },
+  {
+    id: "4",
+    name: "College Features",
+    image: "./",
+    icons: [BiLogoReact, BiLogoMongodb,TbApi ],
+    description: "A college portal for students featuring lost and found, complaint registration, and other essential services.",
+    github: "https://colleguim-main.vercel.app/",
+    demo: "https://colleguim-main.vercel.app/",
+  },
+  
 ];
 
 export default ProjectsData;

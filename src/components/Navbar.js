@@ -30,6 +30,7 @@ const Navbar = () => {
             className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150"
             src={ProfileData.logo}
             alt={ProfileData.name}
+            style={{width:75}}
           />
         </Link>
         <nav
